@@ -1,15 +1,32 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Start {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.print("Hello and welcome!");
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+public class Start {
+    public static void main(String[] args) throws IOException {
+        System.out.print("Welcome to Student Management App");
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        while (true){
+            System.out.println("Press 1 to Add student");
+            System.out.println("Press 2 to Delete student");
+            System.out.println("Press 3 to Display student");
+            System.out.println("Press 4 to Exit app");
+            int c = Integer.parseInt(br.readLine());
+
+            if (c==1){
+                //add student
+            } else if (c==2) {
+                //delete student
+            } else if (c==3) {
+                //display student
+            } else if (c==4) {
+                //exit
+                break;
+            }else{
+
+            }
         }
+        System.out.println("Thank you for using my application....");
+        System.out.println("See you soon...bye bye");
     }
 }
