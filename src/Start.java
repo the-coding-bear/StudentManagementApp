@@ -1,9 +1,10 @@
+import com.student.manage.Student;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Start {
-    public static void main(String[] args) throws IOException {
+    public static  void main(String[] args) throws IOException {
         System.out.print("Welcome to Student Management App");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         while (true){
@@ -14,7 +15,20 @@ public class Start {
             int c = Integer.parseInt(br.readLine());
 
             if (c==1){
-                //add student
+                //add student..
+                System.out.println("Enter user name :");
+                String name = br.readLine();
+
+                System.out.println("Enter user phone :");
+                String phone = br.readLine();
+
+                System.out.println("Enter user city");
+                String city = br.readLine();
+
+                //create student object to store student
+                Student st = new Student(name,phone,city);
+
+                System.out.println(st);
             } else if (c==2) {
                 //delete student
             } else if (c==3) {
