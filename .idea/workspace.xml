@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92d26eae-b4e9-4d47-b083-ddb01f6e12a0" name="Changes" comment=" Implement insertStudentToDB method to insert student records into the database with JDBC">
+    <list default="true" id="92d26eae-b4e9-4d47-b083-ddb01f6e12a0" name="Changes" comment="Student records added to database.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/student/manage/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/student/manage/StudentDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715738561918</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Student records added to database.">
+      <option name="closed" value="true" />
+      <created>1715739518946</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715739518946</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +136,22 @@
     <MESSAGE value="Implement main menu structure for Student Management App with options to add, delete, display, and exit." />
     <MESSAGE value="Add functionality to create and display student details in Start application." />
     <MESSAGE value=" Implement insertStudentToDB method to insert student records into the database with JDBC" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Implement insertStudentToDB method to insert student records into the database with JDBC" />
+    <MESSAGE value="Student records added to database." />
+    <option name="LAST_COMMIT_MESSAGE" value="Student records added to database." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/student/manage/StudentDao.java</url>
+          <line>32</line>
+          <properties class="com.student.manage.StudentDao" method="deleteStudent">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
