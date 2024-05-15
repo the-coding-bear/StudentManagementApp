@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92d26eae-b4e9-4d47-b083-ddb01f6e12a0" name="Changes" comment="Implement main menu structure for Student Management App with options to add, delete, display, and exit.">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/student/manage/Student.java" afterDir="false" />
+    <list default="true" id="92d26eae-b4e9-4d47-b083-ddb01f6e12a0" name="Changes" comment="Add functionality to create and display student details in Start application.">
+      <change afterPath="$PROJECT_DIR$/src/com/student/manage/CP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/student/manage/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Start.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,21 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "the-coding-bear"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;the-coding-bear&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/the-coding-bear/StudentManagementApp.git",
-    "accountId": "763045f4-7f85-40e9-af72-875fb7435bf7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/the-coding-bear/StudentManagementApp.git&quot;,
+    &quot;accountId&quot;: &quot;763045f4-7f85-40e9-af72-875fb7435bf7&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2gRrIIppp3AKw0M1U2Ly2T8FkPJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -59,7 +59,8 @@
     "onboarding.tips.debug.path": "C:/Users/Lenovo/Desktop/Java Project/StudentManagementApp/src/Main.java",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager">
@@ -93,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715707894661</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add functionality to create and display student details in Start application.">
+      <option name="closed" value="true" />
+      <created>1715711605047</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715711605047</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Implement main menu structure for Student Management App with options to add, delete, display, and exit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement main menu structure for Student Management App with options to add, delete, display, and exit." />
+    <MESSAGE value="Add functionality to create and display student details in Start application." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add functionality to create and display student details in Start application." />
   </component>
 </project>

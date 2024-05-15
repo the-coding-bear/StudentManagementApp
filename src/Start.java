@@ -1,4 +1,6 @@
 import com.student.manage.Student;
+import com.student.manage.StudentDao;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -27,7 +29,7 @@ public class Start {
 
                 //create student object to store student
                 Student st = new Student(name,phone,city);
-
+                StudentDao.insertStudentToDB(st);
                 System.out.println(st);
             } else if (c==2) {
                 //delete student
