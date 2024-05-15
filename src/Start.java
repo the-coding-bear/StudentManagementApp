@@ -29,10 +29,16 @@ public class Start {
 
                 //create student object to store student
                 Student st = new Student(name,phone,city);
-                StudentDao.insertStudentToDB(st);
+              boolean answer =  StudentDao.insertStudentToDB(st);
+              if (answer) {
+                  System.out.println("Student is added successfully...");
+              }else {
+                  System.out.println("Something went wrong try again..");
+              }
                 System.out.println(st);
             } else if (c==2) {
                 //delete student
+
             } else if (c==3) {
                 //display student
             } else if (c==4) {
